@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: ./EmployeesRating-0.0.1-SNAPSHOT.jar
-    destination: /home/ec2-user/employee_rating
+    destination: /home/ec2-user/employee_rating_codeDeploy
