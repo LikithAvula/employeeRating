@@ -64,4 +64,10 @@ public class EmployeeRatingController {
 		ratings.setEmployeeRatings(list);
 		return ratings;
 	}
+	
+	@GetMapping("/helloWorld")
+	public String helloWorld() {
+		return "Hello World";
+		
+	}
 }
