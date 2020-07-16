@@ -14,7 +14,7 @@ public class EmployeesRatingApplication {
 		
 		//SpringApplication.run(EmployeesRatingApplication.class, args);
 		SpringApplication app = new SpringApplication(EmployeesRatingApplication.class);
-		app.addListeners(new ApplicationPidFileWriter("/pid/application.pid"));
+		app.addListeners(new ApplicationPidFileWriter("/home/ec2-user/employee_rating_codeDeploy/pid/application.pid"));
 		app.run(args);
 		
 	}
