@@ -7,6 +7,6 @@ files:
     
 hooks:
   ApplicationStart:
-    - location: start.sh
+    - location: /home/ec2-user/employee_rating_codeDeploy/scripts/start.sh
       timeout: 20
       runas: ec2-user
