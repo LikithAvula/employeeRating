@@ -4,11 +4,8 @@ files:
   - source: /
     destination: /home/ec2-user/employee_rating_codeDeploy
     
- hooks:
-  ApplicationStop:
-    - location: stop.sh
-      timeout: 200
-      runas: ec2-user
+    
+hooks:
   ApplicationStart:
     - location: start.sh
       timeout: 200
