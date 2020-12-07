@@ -1,8 +1,6 @@
 package com.likith.EmployeesRating.Entity;
 
-import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
 public class Employee {	
 	
 	private String firstName;
